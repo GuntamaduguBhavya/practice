@@ -1,0 +1,58 @@
+User story example :
+
+
+Title: Implementing User Authentication
+
+User story : As a user i want to be able to authenticate myself on the platform
+So that I can securely access my account and utilize its features
+
+
+Scenario 1 : User login
+             Given I am on the platform's login page
+             When I enter my username and password
+             Then I should be able to successfully login to my account
+
+Scenario 2 : Invalid credentials
+             Given I am on the platform's login page
+             When I enter incorrect username or password
+             Then I should receive an error message indicating that my credentials are invalid
+
+Scenario 3 : Forgot password
+             Given I am on the platform's login page
+             When I click on the "Forgot Password" link
+             Then I should be directed to a page where I can reset my password by providing my email
+
+Scenario 4 : Password reset
+             Given I have requested a password reset
+             When I provide my email address and submit the form
+             Then I should receive an email with instructions on how to reset my password
+
+Scenario 5 : Password reset link expiration
+             Given I have requested a password reset
+             When I click on the password reset link after it has expired
+             Then I should receive a message indicating that the link has expired and I need to request a new one
+
+Scenario 6 : Account lockout
+             Given I have entered incorrect credentials multiple times
+             When my account is locked out
+             Then I should receive a notification informing me that my account has been temporarily locked for security reasons
+
+Scenario 7 : Successful authentication redirect
+             Given I have successfully logged in
+             When I am authenticated
+             Then I should be redirected to the homepage of the platform
+
+Scenario 8 : Remember me functionality
+             Given I am on the login page
+             When I check the "Remember Me" checkbox
+             Then I should remain logged in even after closing and reopening the browser
+
+Scenario 9 : Logout
+             Given I am logged in to my account
+             When I click on the logout button
+             Then I should be logged out of my account and redirected to the login page
+
+Scenario 10 : Session timeout
+              Given I am logged in to my account
+              When my session expires due to inactivity
+              Then I should be automatically logged out and redirected to the login page
