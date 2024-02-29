@@ -1,0 +1,89 @@
+What is test plan 
+
+A test plan is a document outlining the scope, approach, resources, and schedule of testing activities for a software project.
+
+steps to create test plan : 
+
+1.Define the release scope
+2.Schedule timelines 
+3.Define test objectives
+4.Determine test deliverables
+5.Design the test strategy
+6.Plan test environment and test data
+
+1.Define the release scope : 
+it is used to check the features or functions to be included in release and its important to define the scope of testing for your release.
+
+scope : defines the goals of a project and provides information about user scenarios that will be tested.
+
+
+Realese scope include questions like 
+new feauters of the version 
+is there any risk areas
+
+
+2.Schedule timelines : 
+
+it is help to decide your testing time and routine
+ project manager will help you to understand the current release timeline.
+Look at past release times and schedules.
+
+A test schedule includes the testing steps or tasks, the target start and end dates, and responsibilities.
+ It should also describe how the test will be reviewed, tracked, and approved.
+
+
+3. Define test objectives
+
+a test objective is a  reason or purpose for designing and executing a test. These objectives ultimately help guide and define the scope of testing activities.
+
+eample of general test objectives include:
+
+1. identifying and reporting defects
+2. Testing new features.
+
+
+
+4. Determine test deliverables : 
+
+ 
+Test deliverables are the documents that describe the testing process and can be used to document your efforts. Each test process has its own set of deliverables that may include: Test strategy (also known as a plan) Test plans (detailed step-by-step instructions to perform tests)
+
+
+1.Before testing : 
+Test plan document: The scope, objectives, and approach of the testing endeavor are all outlined in the test plan.
+Test suite: Test cases illustrate how to run a test, including input data, expected output, and pass/fail criteria.
+Test design and environment specifications: The test environment outlines the hardware and software configurations used for testing.
+
+2.After testing : 
+
+Test completion report: Covers the testing scope, product quality, and lessons discovered.
+User acceptance test (UAT) report: Points to any issues found and fixed.
+Release notes: List information about what the release includes. Examples include any new features for development, advancements, or fixes. 
+ 
+
+5. Design the test strategy : 
+
+Test strategy helps determine test cost, test effort, and which features will be in-scope (planned to be tested) versus out-of-scope (not planned to be tested).
+
+Identify testing types  :
+
+It is critical to identify when to perform what type of testing, what should be tested manually vs. automated, the scope of automated tests, how much work will be required to create new test cases, and who will be doing that work. 
+
+Depending on several factors, there may be various types of testing to include in your test plan. 
+
+Examples of factors to consider when choosing the right testing type to perform include:
+
+Test objectives
+Your project’s feature requirements
+The complexity of your product
+Your team’s experience levels
+Regulatory requirements
+Time and budget
+
+
+
+6. Plan the test environment and test data : 
+
+Planning a test environment guarantees precise and robust testing. The test environment includes hardware, software, and network configurations for software testing. Follow these procedures to set up the test environment:
+
+

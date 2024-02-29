@@ -1,0 +1,64 @@
+What are agile user stories?
+
+A user story is the smallest unit of work in an agile framework.A user story is a concise description of a feature or requirement from the perspective of an end-user.  It’s an end goal, not a feature, expressed from the software user’s perspective.User stories are also the building blocks of larger agile frameworks like epics and initiatives. Epics are large work items broken down into a set of stories, and multiple epics comprise an initiative. 
+
+
+
+
+Why create user stories?
+
+Stories keep the focus on the user : 
+Stories enable collaboration
+Stories drive creative solutions
+Stories create momentum
+
+
+
+When: This describes the context or situation in which the user interacts with the system or feature. It sets the stage for what triggers the action described in the user story.
+
+How: This outlines the steps or actions the user takes to achieve their goal or utilize the functionality they desire. It provides a clear understanding of how the user interacts with the system to accomplish their task.
+
+What: This specifies the desired functionality or outcome that the user expects from the system. It defines what the user wants to achieve or what feature they need to accomplish their task.
+
+
+
+
+
+Title : Allow Users to Reset Passwords
+Priority : Medium
+Estimate : 3 Story Points
+
+User Story:
+As a registered user who has forgotten my password (When),
+I want to be able to reset my password easily without contacting support (How),
+So that I can regain access to my account quickly and independently (What).
+
+Acceptance Criteria:
+Given that I am on the login page and have forgotten my password,
+When I click on the "Forgot Password" link and enter my email address,
+Then a password reset link should be sent to my email.
+Given that I receive the password reset link in my email,
+When I click on the link,
+Then I should be redirected to a page where I can create a new password.
+Given that I successfully reset my password,
+When I try to login with my new password,
+Then I should be able to access my account without any issues.
+
+
+ INVEST stands for independent, negotiable, valuable, estimable, small, and testable.
+
+
+Sprint : is a time-boxed period of one to four weeks when a scrum team focuses on a single sprint goal.
+
+
+burned down  : Is a tool used by Agile teams to gather information about both the work they have  completed on a project and the work that is yet to be done within a given time period.
+
+
+
+
+
+
+
+
+
+
