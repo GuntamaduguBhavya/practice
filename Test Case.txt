@@ -1,0 +1,46 @@
+
+What is Test Case :
+
+A test case template is a document that comes under one of the test artifacts, which allows testers to develop the test cases for a particular test scenario in order to verify whether the features of an application are working as intended or not.
+
+ Test cases are the set of positive and negative executable steps of a test scenario which has a set of pre-conditions, test data, expected results, post-conditions, and actual results.
+
+
+
+Test Scenario: Test Scenario gives the idea of what we have to test. Test Scenario is like a high-level test case.
+
+
+Test Scenario vs Test Case : 
+
+
+The main difference between test cases and test scenarios is that test cases are specific instructions that can be used to test a particular function or feature of an application, while test scenarios are high-level descriptions of how a specific function or feature of an application should work.
+
+
+Who Writes Test Cases?
+ 
+Assuming that a team contains developers and dedicated testers then it might be something like a joint effort.
+
+Developers write Unit Tests
+Developers & Testers write Integration Tests
+Testers write Acceptance Tests
+
+
+
+How To Write Test Cases in Manual Testing : 
+
+Step 1 – Test Case ID
+Step 2 – Test Case Description
+Step 3 – Pre-Conditions
+Step 4 – Test Steps
+Step 5 – Test Data
+Step 6 – Expected Result
+Step 7 –  Post Condition
+Step 8 – Actual Result
+Step 9 – Status
+
+
+
+
+
+
+
